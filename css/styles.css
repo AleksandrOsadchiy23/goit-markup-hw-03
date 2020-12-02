@@ -1,0 +1,444 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --accent-color-menu-buttons: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+}
+img {
+  display: block;
+}
+.container {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  outline: 1px solid red;
+  justify-content: space-between;
+  } 
+
+  
+/* ========HEADER========= */
+
+body {
+  font-family: var(--main-font);
+  /* width: 1600px;  временно закомичен может гдето всплывет*/ 
+}
+/* ========HEADER========= */
+.header .link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+  width: 146px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  letter-spacing: 0.03em; 
+  background-color: yellow; 
+}
+.black {
+  color: black;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-email:hover,
+.header-email:focus,
+.header-tell:hover,
+.header-tell:focus {
+  color: var(--accent-color);
+}
+.navigation-list-item,
+.heder-address-list-item,
+.principles-list-item,
+.team-list,
+.footer-address-item {
+  list-style-type: none;
+}
+
+.header-email,
+.header-tell {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.navigation > .link,
+.navigation-list-link,
+.footer > .link {
+  text-decoration: none;
+}
+/* =====FLEX-BOX-HEADER============== */
+.header {
+  display: flex;
+
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  outline: 1px solid red;
+}
+
+.navigation-list {
+  display: flex;
+  outline: 1px solid green;
+  margin-right: 331px;
+    
+}
+
+.navigation-list-link,
+.header-email,
+.header-tell {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: yellow;
+}
+.navigation-list-link {
+  outline: 1px solid green;
+} 
+.heder-address {
+  display: flex;
+  margin-left: 0;
+  outline: 1px solid blue;
+   
+}
+.heder-address-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+margin-right: 50px;
+}
+.heder-address-list-item:not(:last-child) {
+  margin-right: 50px; 
+}
+
+  /* ==========================END OF HEADER===================== */
+  /* ========================= MAINE============================= */
+
+.solutions {
+  background-color: #2F303A;
+  justify-content: center;
+  text-align: center;
+  
+ }
+.principles,
+.work{
+  background-color:#E5E5E5;;
+  }
+
+.solutions-title {
+  width: 1170px;
+  padding-top: 200px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 200px;
+  padding: 10px 32px;
+  min-width: 200px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  
+  
+  
+}
+.principles-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.principles-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.member-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+.white {
+  color: white;
+}
+.footer-address-item a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  /* or 171% */
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-email,
+.footer-tell {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none; 
+}
+ 
+/* =======================MAINE FLEX-BOX============================== */
+.principless {
+  display: flex;
+  
+}
+.principles-list {
+  display: flex;
+  width: 1170px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+}
+.principles-list-item {
+  display: flex;
+  flex-direction: column;
+}
+.principles-list-item:not(:last-child) {
+  margin-right: 30px;
+} 
+.principles-title,
+.principles-description {
+  width: 270px;
+}
+.principles-title {
+  margin-bottom: 10px;
+}
+/* ================================= */
+.work {
+  display: flex;
+  flex-direction: column;
+  width: 1170px;
+  padding-bottom: 94px;
+}
+.work-title {
+  margin-bottom: 50px;
+}
+.work-img {
+  display: flex;
+  justify-content: center;
+}  
+.work-photo:not(:last-child) {
+  margin-right: 30px;
+}
+/* ================================ */
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-title {
+  margin-bottom: 50px;
+} 
+.team-list {
+  display: flex;
+}
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.member-photo {
+  margin-bottom: 30px;
+}
+.member-name {
+  margin-bottom: 10px;
+}
+.member-position {
+  margin-bottom: 30px;
+}
+.team-list-item{
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+ /* =========FOOTER=========== */
+ 
+.contacts {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  outline: 1px solid red;
+  } 
+.footer .link {
+  display: inline-block;
+  width: 146px; 
+  margin-bottom: 20px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  letter-spacing: 0.03em;
+    }
+.footer-address-item {
+      margin-bottom: 9px;
+      list-style-type: none;
+    }
+.footer-email-item,
+.footer-tell-item {
+  list-style-type: none;;
+    }
+
+  
+ 
+/* ==========PORTFOLIO===(Стили Header and footer  уже заданы выше)=============== */
+
+.portfolio {
+  background-color: #E5E5E5;
+}
+.menu-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  color: var(--accent-color-menu-buttons);
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.services-menu-list-item {
+  list-style-type: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.example-project-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.example-project-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.examples-project-list-item {
+  list-style-type: none;
+}
+
+
+
