@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <!-- <link rel="stylesheet" href="">      ШРИФТЫ -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
     <header class="header">
-        <div class="container">
+        <div class="nav container">
         <nav class="navigation">
             <a class="link" href="./index.html" lang="en">Web<span class="black">Studio</span></a>
             <ul class="navigation-list">
@@ -34,53 +34,59 @@
         </div>
     </header>
 
-
-    <main>
-        <div class="container">
-            <section class="solutions" >
+    <main class="original">
+        <section class="decision">
+            <div class="container">
+                <div class="solutions">
                 <h1 class="solutions-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                 <button class="btn" type="button">Заказать услугу</button>
-            </section>
-        </div>
-        <div class="container">
+                </div>
+            </div>
+        </section>
+        
         <section class="principles">
-            <ul class="principles-list">
+            <div class="container our-quality">
+                <ul class="principles-list">
                 <li class="principles-list-item">
                     <h3 class="principles-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                    <p class="principles-description">Значимость этих проблем настолько <br> очевидна, что реализация
-                        плановых <br> заданий.</p>
+                    <p class="principles-description">Значимость этих проблем настолько очевидна, что реализация
+                        плановых заданий.</p>
                 </li>
                 <li class="principles-list-item">
                     <h3 class="principles-title">ПУНКТУАЛЬНОСТЬ</h3>
-                    <p class="principles-description">Задача организации, в особенности <br> же рамки и место обучения
-                        кадров <br>влечет за собой.</p>
+                    <p class="principles-description">Задача организации, в особенности же рамки и место обучения
+                        кадров влечет за собой.</p>
                 </li>
                 <li class="principles-list-item">
                     <h3 class="principles-title">ПЛАНИРОВАНИЕ</h3>
-                    <p class="principles-description">Равным образом консультация с <br> широким активом в значительной
-                        <br> степени обуславливает.</p>
+                    <p class="principles-description">Равным образом консультация с широким активом в значительной
+                        степени обуславливает.</p>
                 </li>
                 <li class="principles-list-item">
                     <h3 class="principles-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                    <p class="principles-description">Значимость этих проблем настолько <br> очевидна, что реализация
-                        плановых <br> заданий.</p>
+                    <p class="principles-description">Значимость этих проблем настолько очевидна, что реализация
+                        плановых заданий.</p>
                 </li>
             </ul>
-        </section>
-        </div>
-        <div class="container">
-        <section class="work">
-            <h2 class="work-title">Чем мы занимаемся</h2>
-            <div class="work-img">
-            <img class="work-photo" src="./images/3.img" alt="" width="370" height="294">
-            <img class="work-photo" src="./images/1.img" alt="" width="370" height="294">
-            <img class="work-photo" src="./images/2.img" alt="" width="370" height="294">
             </div>
         </section>
+        <section class="work">
+        <div class="container types-jobs">
+            <h2 class="work-title">Чем мы занимаемся</h2>
+            <ul class="work-list">
+                <li class="work-img"><img class="work-photo" src="./images/3.img" alt="" width="370" height="294"></li>
+                <li class="work-img"><img class="work-photo" src="./images/1.img" alt="" width="370" height="294"></li>
+                <li class="work-img"><img class="work-photo" src="./images/2.img" alt="" width="370" height="294"></li>
+            </ul>
+            <!-- <img class="work-photo" src="./images/3.img" alt="" width="370" height="294">
+            <img class="work-photo" src="./images/1.img" alt="" width="370" height="294">
+            <img class="work-photo" src="./images/2.img" alt="" width="370" height="294"> -->
         </div>
-        <div class="container">
+        </section>
         <section class="team">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
+
             <ul class="team-list">
                 <li class="team-list-item">
                     <img class="member-photo" src="./images/igordemianenko.img" alt="Игорь Демьяненко" width="270"
@@ -107,25 +113,25 @@
                     <p class="member-position" lang="en">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
-        </div>  
     </main>
     <footer class="footer">
-        <!-- <div class="container"> -->
-            <div class="contacts">
-        <a class="link" href="" lang="en">Web<span class="white">Studio</span></a>
+        <div class="container">
+            <div class="footer-box">
+        <a class="link" href="./index.html" lang="en">Web<span class="white">Studio</span></a>
         <address class="footer-address">
             <ul class="footer-address-list">
                 <li class="footer-address-item"><a class="map-position" href="https://goo.gl/maps/FptzqoiRf94p3BvG7"
                         target="_blank" rel="noopener noreferrer">г. Киев,
                         пр-т Леси Украинки, 26</a></li>
-                <li class="footer-email-item"><a class="footer-email"
+                <li class="footer-address-item"><a class="footer-email"
                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer-tell-item"><a class="footer-tell" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="footer-address-item"><a class="footer-tell" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
             </div>
-        <!-- </div> -->
+        </div>
     </footer>
 </body>
 
